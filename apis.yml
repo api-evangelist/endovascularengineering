@@ -1,8 +1,24 @@
 aid: endovascularengineering
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endovascularengineering.png
 name: Endovascularengineering
-description: 'Endovascularengineering is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Endovascular Engineering is a medical-device company developing minimally invasive
+  thrombectomy technology for the removal of blood clots. Its lead product, the Helo PE Thrombectomy
+  System, targets pulmonary embolism, pairing a small catheter profile with large-bore clot engagement
+  via a self-expanding funnel and dual-action high-speed agitation plus physician-controlled aspiration
+  for single-pass navigation of complex vasculature. The Helo system is investigational only and not
+  commercially available. Backed by Norwest Venture Partners. The company publishes a marketing and
+  clinical-overview website but no public developer, API, SDK, or technical-documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/endovascularengineering/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Medical Devices
+- Endovascular
+- Thrombectomy
+- Cardiovascular
+- Pulmonary Embolism
+- Health
+- Interventional
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/endovascularengineering-domain-security.yml
 - type: Website
   url: https://endovascularengineering.com
+- type: PrivacyPolicy
+  url: https://endovascularengineering.com/privacy-policy/
+- type: TermsOfService
+  url: https://endovascularengineering.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
